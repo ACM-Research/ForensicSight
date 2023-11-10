@@ -1,5 +1,4 @@
 opencv-python
 roboflow
-torch torchvision torchaudio
 tensorboard
 seaborn

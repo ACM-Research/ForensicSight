@@ -1,0 +1,14 @@
+names:
+- Impact
+- Passive
+- Transfer
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: forensicsight-x0cje
+  url: https://universe.roboflow.com/forensicsight-ge8af/forensicsight-x0cje/dataset/3
+  version: 3
+  workspace: forensicsight-ge8af
+test: ../test/images
+train: ForensicSight-3/train/images
+val: ForensicSight-3/valid/images

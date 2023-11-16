@@ -10,5 +10,5 @@ roboflow:
   version: 3
   workspace: forensicsight-ge8af
 test: ../test/images
-train: ForensicSight-3/train/images
-val: ForensicSight-3/valid/images
+train: Data/train/images
+val: Data/valid/images

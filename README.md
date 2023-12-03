@@ -19,7 +19,7 @@ In this research project, we mainly immerse ourselves in the fundamentals of ima
 4. Testing the dataset
     Once the YOLOv7model was done training, we started our experiment. Our team repeated trials to gain accuracy in accuracy of stain detection across different surfaces until an accuracy score to satisfaction was received. 
 
-## Computer Vision and Object Detection
+### Computer Vision and Object Detection
 Computer Vision, a subfield of AI focused on computers gaining an understanding of something from digital media, is the basis of ForensicSight.
 
 We utilized YOLOV7, an open-source algorithm for real-time object detection, because it is tailored towards faster and more accurate results as opposed to other such algorithms or other algorithms within the YOLO architecture.

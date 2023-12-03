@@ -1,8 +1,8 @@
 # ForensicSight: Precise Crime Scene Bloodstain Classification
 ## Introduction
-    In the realm of forensic investigations, decoding the intricate details of crime scenes is essential for unravelling the mysteries surrounding criminal activities. A crucial element in the deciphering aspect of this investigation process involves identifying and interpreting the various bloodstain patterns across different surfaces, which can further provide valuable insights into the sequence of events that transpired. 
+    ### In the realm of forensic investigations, decoding the intricate details of crime scenes is essential for unravelling the mysteries surrounding criminal activities. A crucial element in the deciphering aspect of this investigation process involves identifying and interpreting the various bloodstain patterns across different surfaces, which can further provide valuable insights into the sequence of events that transpired. 
 
-    In this research project, we mainly immerse ourselves in the fundamentals of image classification using advanced techniques such as convolution neural networks (CNNs). Our primary goal is to assist aspiring forensic analysts and machine learning enthusiasts with a sophisticated model. This model excels as classifying bloodstain patterns - a task of utmost significance in forensic science—into two distinct categories: passive, and transfer. 
+    ### In this research project, we mainly immerse ourselves in the fundamentals of image classification using advanced techniques such as convolution neural networks (CNNs). Our primary goal is to assist aspiring forensic analysts and machine learning enthusiasts with a sophisticated model. This model excels as classifying bloodstain patterns - a task of utmost significance in forensic science—into two distinct categories: passive, and transfer. 
 
 ## Methods
   ## 1. Research

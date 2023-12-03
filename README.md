@@ -5,16 +5,16 @@
     In this research project, we mainly immerse ourselves in the fundamentals of image classification using advanced techniques such as convolution neural networks (CNNs). Our primary goal is to assist aspiring forensic analysts and machine learning enthusiasts with a sophisticated model. This model excels as classifying bloodstain patterns - a task of utmost significance in forensic science—into two distinct categories: passive, and transfer. 
 
 ## Methods
-  ### 1. Research
+  ## 1. Research
     Before we started to create a model,  we employed online resources regarding YOLOv7, PyTorch, and OpenCV, and an open source algorithm. Furthermore, we expanded our knowledge via numerous previous research papers; however, we expanded our knowledge by adapting our model to different surfaces. 
 
-  ### 2. Creating the dataset
+  ## 2. Creating the dataset
     We compiled blood stains across different surfaces dataset with over 300 images in order to train our model. 
 
-  ### 3. Training the model
+  ## 3. Training the model
     With the dataset, we trained our model by using preprocessed images with bounding boxes identifying the classification of the stain. Then we further augmented our data using standard industry techniques like 3 types of rotations, vertical flips, and horizontal flips. 
 
-  ### 4. Testing the dataset
+  ## 4. Testing the dataset
     Once the YOLOv7model was done training, we started our experiment. Our team repeated trials to gain accuracy in accuracy of stain detection across different surfaces until an accuracy score to satisfaction was received. 
 
 ## Implementations

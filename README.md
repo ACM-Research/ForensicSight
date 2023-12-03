@@ -1,7 +1,7 @@
 
 To assist forensics experts in identifying what events took place at the scene of a crime, you will learn the basics of image classification and train a model using convolutional neural networks (CNNs) to classify bloodstain patterns commonly found in crime scenes into three categories: passive, transfer, and impact.
 
-![Agent_Chase_Poster (18)-compressed-1](https://user-images.githubusercontent.com/43019257/235407717-a676a935-fc65-4ef1-a492-645d132f67c6.png)
+![ForensicSight (1)-1](https://github.com/ACM-Research/ForensicSight/assets/73293294/d04dce03-aefa-4f27-8a07-ba8e564a70a1)
 
 
 ### Introduction

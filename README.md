@@ -31,6 +31,10 @@ To measure the accuracy of our model, we focused on an MAP score at two IOU scor
 
 The data shows us that after 300 epochs of training, we end with a precision score of 0.8133, recall score of 0.6409, and MAP scores of 0.7027 at an IOU score of 0.50, and 0.4518 at an IOU score of 0.95
 
+![stats](https://github.com/ACM-Research/ForensicSight/assets/73293294/b34c2131-7c74-494e-ad3f-03cf1b4307a4)
+
+![confusion_matrix](https://github.com/ACM-Research/ForensicSight/assets/73293294/451403ab-23ba-4d4c-8cbd-74591ce4e14f)
+
 ### Analysis
 As demonstrated by the graphs, ForensicSight has a high MAP score of 0.7027 demonstrating that it can correctly detect passive and transfer stains 70.27 \% of the time with respect to our dataset. The data also shows a high precision score of 81\% showcasing that 81\% of the time the model predicts the right bloodstain with respect to the class. A recall of 64\% suggests that the model is able to find a class of the total number of that class present 64\% of the time.
 

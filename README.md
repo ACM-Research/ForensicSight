@@ -1,7 +1,7 @@
 
 To assist forensics experts in identifying what events took place at the scene of a crime, you will learn the basics of image classification and train a model using convolutional neural networks (CNNs) to classify bloodstain patterns commonly found in crime scenes into three categories: passive, transfer, and impact.
 
-![LegalEye_Poster_-1](https://github.com/ACM-Research/ForensicSight/assets/73293294/d022d1a8-8e61-4a61-83da-a625d66c7ffb)
+![287539162-d04dce03-aefa-4f27-8a07-ba8e564a70a1](https://github.com/ACM-Research/ForensicSight/assets/73293294/2e58441a-b5b1-4ea2-996e-60aff1603cec)
 
 
 ### Introduction
@@ -30,12 +30,13 @@ YOLOv7 assists ForensicSight in developing a model that can detect bloodstains a
 To measure the accuracy of our model, we focused on an MAP score at two IOU scores. The higher the IOU readings, the more accurate our results and a higher MAP means a more accurate model. This is because the IOU score measures the overlap of the annotated and predicted bounding boxes over the combined space of the predicted bounding boxes. The MAP score measures the overall accuracy of the model in relation to precision and recall.
 
 The data shows us that after 300 epochs of training, we end with a precision score of 0.8133, recall score of 0.6409, and MAP scores of 0.7027 at an IOU score of 0.50, and 0.4518 at an IOU score of 0.95
+![graphs](https://github.com/ACM-Research/ForensicSight/assets/73293294/8e9c0470-701b-48f3-aad1-6170840a2718)
 
-![Screenshot 2024-04-29 115011](https://github.com/ACM-Research/ForensicSight/assets/73293294/06fbbbda-972c-422a-88bb-bb19c2cfe3c9)
+![confmatrix](https://github.com/ACM-Research/ForensicSight/assets/73293294/68ab2d2b-5bbd-4f40-89b3-acf6453ae06e)
 
 
 ### Analysis
-![analysisImage](https://github.com/ACM-Research/ForensicSight/assets/73293294/e55c69f0-f5f6-49ab-ae78-05775a1f4914)
+
 
 As demonstrated by the graphs, ForensicSight has a high MAP score of 0.7027 demonstrating that it can correctly detect passive and transfer stains 70.27 \% of the time with respect to our dataset. The data also shows a high precision score of 81\% showcasing that 81\% of the time the model predicts the right bloodstain with respect to the class. A recall of 64\% suggests that the model is able to find a class of the total number of that class present 64\% of the time.
 

@@ -35,6 +35,8 @@ The data shows us that after 300 epochs of training, we end with a precision sco
 
 
 ### Analysis
+![analysisImage](https://github.com/ACM-Research/ForensicSight/assets/73293294/e55c69f0-f5f6-49ab-ae78-05775a1f4914)
+
 As demonstrated by the graphs, ForensicSight has a high MAP score of 0.7027 demonstrating that it can correctly detect passive and transfer stains 70.27 \% of the time with respect to our dataset. The data also shows a high precision score of 81\% showcasing that 81\% of the time the model predicts the right bloodstain with respect to the class. A recall of 64\% suggests that the model is able to find a class of the total number of that class present 64\% of the time.
 
 Our Confusion Matrix above also highlights some areas where large discrepancies are occurring in the detection part of our model. Specifically, the darker boxes in the Transfer True Column and Background FN Predicted Row indicate that in 52\% of transfer images, there is no stain being detected. Passive stains on the other hand do a great job of being detected by our model as 83\% of classified passive stains from our dataset were detected by our model.
